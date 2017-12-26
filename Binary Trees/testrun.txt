@@ -1,0 +1,30 @@
+N = 10
+BST                3 ms
+AVL                3 ms
+BST[rev-sorted]    0 ms
+AVL[rev-sorted]    0 ms
+
+N = 100
+BST                1 ms
+AVL                1 ms
+BST[rev-sorted]    3 ms
+AVL[rev-sorted]    1 ms
+
+N = 1000
+BST                8 ms
+AVL                6 ms
+BST[rev-sorted]    3 ms
+AVL[rev-sorted]    2 ms
+
+N = 10000
+BST                9 ms
+AVL               19 ms
+BST[rev-sorted]  116 ms
+AVL[rev-sorted]    2 ms
+
+N = 100000
+BST              115 ms
+AVL               52 ms
+BST[rev-sorted]12156 ms
+AVL[rev-sorted]   22 ms
+
